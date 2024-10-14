@@ -1,8 +1,6 @@
 name: Echo Hello on PR Review Comment
 
 on:
-  pull_request_review_comment:
-    types: [created, deleted, edited]
   pull_request:
     types: [locked]
 
